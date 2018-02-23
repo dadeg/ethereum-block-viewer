@@ -2,6 +2,7 @@
   "name": "ethereum-block-viewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dadeg.github.io/ethereum-block-viewer",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -12,10 +13,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1"
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^1.1.0"
   }
 }
